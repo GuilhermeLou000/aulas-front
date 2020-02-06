@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Testando o Java Script</title>
+        
+        <style>
+            .aprovado{
+                color: green;
+                margin:5px;
+                border:none;
+            }
+
+            .reprovado {
+                color: red;
+                margin:5px;
+                border:none;
+            }
+        
+        </style>
+    </head>
+    <body>
+
+        <h1> Controle de Notas </h1>
+
+        Nome:
+        <input type="text" name="txtNome" id="nomeAluno" value="Guilherme">
+        <br>
+        Nota1:
+        <input type="text" name="txtNota1" id="nota1">
+        <br>
+        Nota2:
+        <input type="text" name="txtNota2" id="nota2">
+        <br>
+        Média:
+        <input type="text" name="txtMedia" id="media" disabled>
+        <br>
+        Situação:
+        <input type="text" name="txtSituacao" id="situacao" disabled>
+        <br>    
+        <input type="button" name="btnCalcular" id="calcular" value="calcular">
+
+        <script src="./script.js"></script>
+    </body>
+</html> 
