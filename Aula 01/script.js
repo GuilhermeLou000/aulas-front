@@ -2,6 +2,12 @@
 // const $nome = document.querySelector("#nomeAluno");
 
 const $calcular = document.getElementById('calcular');
+const $exibir = document.querySelector('.exibir');
+const $ocultar = document.getElementById('ocultar');
+const $conteiner = document.querySelector('.conteiner');
+
+console.log($exibir)
+
 const calcularMedia = (n1, n2) => (parseInt(n1) + parseInt(n2))/2;
 
 const verifivarSituacao = (media) => media >= 5 ? "Aprovado" : "Reprovado"   
@@ -43,7 +49,7 @@ const exibirMedia = () => {
 }
 
 
-const calcularConceito = () => {
+const defineConceito = () => {
     const media = document.getElementById('media').value 
     const $conceito = document.getElementById('conceito');
 
@@ -70,9 +76,9 @@ const calcularConceito = () => {
 }
 
 //função normal
-function calcular(){
+function exibirResultado(){
     exibirMedia();
-    calcularConceito();
+    defineConceito();
 }
 
 // //Função anonima
@@ -87,5 +93,14 @@ function calcular(){
 //     calcularConceito();
 // }
 
+const exibir = ( el ) => {
+    el.classList.add ('exibir');
+}
 
-$calcular.addEventListener('click',calcular);
+const ocultar = ( el ) => {
+    el.classList.remove ('exibir');
+}
+
+$exibir.addEventListener('click',() => exibir ($conteiner));
+$ocultar.addEventListener('click',() => ocultar ($conteiner));
+$calcular.addEventListener('click',exibirResultado);

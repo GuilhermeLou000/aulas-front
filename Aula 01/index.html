@@ -7,6 +7,10 @@
         <title>Testando o Java Script</title>
         
         <style>
+
+            .conteiner {
+                display: none;
+            }
             .aprovado{
                 color: green;
                 margin:5px; 
@@ -18,11 +22,19 @@
                 margin:5px;
                 border:none;
             }
+            .exibir {
+                cursor: pointer;
+                display: block;
+            }
         
         </style>
     </head>
     <body>
 
+        <!-- teste -->
+        <button class="exibir" value="exibir"> Exibir </button>
+        <button id="ocultar" value="ocultar"> Ocultar </button>
+        <div class="conteiner">
         <h1> Controle de Notas </h1>
 
         Nome:
@@ -46,5 +58,6 @@
         <input type="button" name="btnCalcular" id="calcular" value="calcular">
 
         <script src="./script.js"></script>
+        </div>
     </body>
 </html> 
