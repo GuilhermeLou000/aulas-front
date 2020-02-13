@@ -1,6 +1,7 @@
 # Projeto - calculo de médias e conceitos
 ## Capacidade
-Desenvolver interfaces wev interativas com linguagem de programação
+Desenvolver interfaces web
+interativas com linguagem de programação
 ## Conhecimento em javascript
 - Criar variáveis
 - Criar funções
