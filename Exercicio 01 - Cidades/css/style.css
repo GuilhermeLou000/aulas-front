@@ -1,0 +1,22 @@
+.container{
+    width: 1200px;
+    height:800px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerEstados{
+    width: inherit;
+    height: 15  0px;
+    background-color: aqua;
+}
+
+#containerTitulo{
+    width: inherit;
+    height: 60px;
+    margin-top: -40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: lawngreen;
+}
