@@ -1,22 +1,88 @@
-.container{
-    width: 1200px;
-    height:800px;
-    background-color: gray;
-    margin-left: auto;
-    margin-right: auto;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
-#containerEstados{
-    width: inherit;
-    height: 15  0px;
-    background-color: aqua;
+/* Container da Página */
+#container{
+    width: 350px;
+    height: 420px;
+    margin: auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
-#containerTitulo{
-    width: inherit;
-    height: 60px;
-    margin-top: -40px;
-    font-size: 30px;
+/* Titulo dos componentes */
+.title{
+    width: 300px;
     text-align: center;
-    background-color: lawngreen;
+    font-family: Arial;
+    word-wrap: initial;
+    font-size: 22px;
+    background-color: darkgray;
+
+}
+
+select{
+    width: 300px;
+    margin-bottom: 35px;
+    outline: none;
+}
+
+#ListaResultados{
+    width: 300px;
+    height: 265px;
+    border: 1px solid black;
+}
+
+#ListaResultados .title{
+    width: 100%;
+    height: 33px;
+    background-color: gray;
+    box-sizing: border-box;
+    padding-top: 3px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#resultados{
+    width: 100%;
+    height: 232px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cidade{
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 4px;
+    font-family: arial;
+    text-align: center;
+    cursor: default;
+}
+
+.cidade:hover{
+    transition: 0.5s;
+    background-color: gray;
+    color: white;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.black{
+    background-color: #474747;
+    color: white;
+}
+
+.white{
+    background-color: #fff;
 }

@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div id="containerEstados">
-            <div id="containerTitulo">
-                <h1> Estados </h1>
-            </div>
-            <div id="containerSelect">
-                <select name="sltEstados" id="estados">
-                    
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Atividade - Pesquisa Cidades</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="areaSelect">
+                <div class="title">Estados:</div>
+                <select id="slcEstados">
+                    <option value="--">Por favor, selecione um estado</option>
                 </select>
             </div>
+            <div id="ListaResultados">
+                <div class="title">Cidades</div>
+                <div id="resultados"></div>
+            </div>
         </div>
-        <div id="containerCidades">
+        <script src="cidades.js"></script>
+    </body>
 
-        </div>
-    </div>
-</body>
 </html>
