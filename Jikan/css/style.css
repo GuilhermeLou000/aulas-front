@@ -1,0 +1,44 @@
+div{
+	height: 100px;
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: blue;*/
+}
+
+header{
+	padding-left: 100px;
+	
+}
+
+#buscar{
+	margin-left: 110px;
+
+}
+
+ .cards .card {
+    height: 230px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+}
+
+ .cards .card__image {
+    height: 190px;
+    width: 100%;
+}
+
+ .cards .card__name {
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #343434;
+    font-weight: bold;
+}
