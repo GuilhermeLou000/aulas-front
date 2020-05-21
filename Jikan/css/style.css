@@ -16,29 +16,43 @@ header{
 
 }
 
- .cards .card {
-    height: 230px;
+.card {
+    height: 350px;
     width: 150px;
     margin: 10px;
     border-radius: 8px;
     background: #fff;
     overflow: hidden;
+    /*background-color: blue;*/
+    float: left;
 }
 
- .cards .card__image {
+.card_image {
     height: 190px;
     width: 100%;
 }
+img{
+	height: 190px;
+    width: 100%;
+}
 
- .cards .card__name {
-    height: 40px;
+.card_name {
+    height: 100px;
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     color: #343434;
     font-weight: bold;
+}
+
+.container{
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	padding: 30px;
+	box-sizing: border-box;
 }
